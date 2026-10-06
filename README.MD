@@ -173,6 +173,30 @@ Por exemplo, caso a temperatura externa aumentasse significativamente enquanto a
 
 Além disso, o armazenamento histórico dessas informações em um banco de dados permitiria comparar períodos diferentes, identificar padrões e auxiliar na tomada de decisões relacionadas ao controle térmico e à eficiência energética.
 
+## Comandos Git utilizados
+
+Os principais comandos Git utilizados durante o desenvolvimento e publicação do projeto foram:
+
+```bash
+# Inicializar o repositório local
+git init
+
+# Adicionar os arquivos do projeto ao staging
+git add .
+
+# Criar um commit com as alterações
+git commit -m "Projeto inicial: Pipeline de Dados IoT"
+
+# Adicionar o repositório remoto do GitHub
+git remote add origin https://github.com/jonathan-JIPSlok/pipeline-de-dados-IoT.git
+
+# Enviar o projeto para o GitHub
+git push -u origin master
+
+# Atualizar o repositório local com alterações do repositório remoto
+git pull
+```
+
 ## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos e de estudo.
