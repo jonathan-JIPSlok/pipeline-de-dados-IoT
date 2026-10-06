@@ -1,0 +1,39 @@
+# Ambientes virtuais locais
+infra/ambiente_virtual/
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente
+.env
+*.env
+
+# Python bytecode e caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Cobertura/testes
+.coverage
+.coverage.*
+htmlcov/
+
+# Build e artefatos locais
+build/
+dist/
+*.egg-info/
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
